@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    header {
+        height: 20vh;
+        width: 100%;
+        background-color: brown;
+    }
+
+    main {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 75vh;
+
+    }
+
+    .left {
+        background-color: rgb(176, 130, 130);
+        height: 100%;
+        width: 20vw;
+    }
+
+    .middle {
+        background-color: rgb(51, 76, 136);
+        height: 100%;
+        width: 100%;
+    }
+
+    .right {
+        background-color: rgb(176, 130, 130);
+        height: 100%;
+        width: 20vw;
+    }
+
+    footer {
+        height: 5vh;
+        width: 100%;
+        background-color: brown;
+    }
+</style>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="A Simple fLex Layout">
+    <meta name="keywords" content="A Simple fLex Layout">
+    <meta name="author" content="Kofoworola">
+    <link rel="stylesheet" href="./resources/styles.css">
+    <title>A Simple fLex Layout</title>
+</head>
+
+<body>
+
+    <header>
+        <p>fixed height</p>
+        <p>100% width</p>
+        <h2>header</h2>
+    </header>
+    <main>
+        <div class="left">
+            <h2>left</h2>
+            <p>fixed height</p>
+            <p>100%width</p>
+        </div>
+        <div class="middle">
+            <h2>middle</h2>
+            <p>100% width</p>
+            <p>100% height</p>
+        </div>
+        <div class="right">
+            <h2>right</h2>
+            <p>fixed width</p>
+            <p>100% heigth</p>
+        </div>
+        <div></div>
+    </main>
+    <footer>
+        <h2>footer</h2>
+        <p>fixed height</p>
+        <p>100%width</p>
+    </footer>
+
+</body>
+
+</html>
